@@ -1,0 +1,118 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <div id="container">
+        
+        <nav >
+           <ul id="side">
+            <li><a id="home"  href="#" >Home</a></li>
+            <li><a id="about"  href="#container3" >About</a></li>
+            <li><a id="resume"  href="https://www.linkedin.com/resume-builder/urn:li:fsd_memberResume:87704932/" onclick="cha()">Resume</a></li>
+            <li><a id="contact"  href="#container4" >Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+           </ul>
+           <i class="fa-solid fa-bars" id="open" onclick="openmenu()"></i>
+        </nav>
+        <div id="head">
+            <h2>Portfolio</h1>
+        </div>
+        
+    </div>
+    <div id="container2">
+        <div id="text">
+            <h5>HELLO, IAM</h5>
+            <h1>MADHAN V</h1>
+            <h5>And I'm a</h5> <h4 id="uiux">UI/UX DESIGNER</h4>
+            
+            <p>I'm a computer science student with a passion for UI/UX design. My goal is to blend creativity with functionality, creating digital experiences that make life easier and more enjoyable for users.</p>
+        </div>
+        <hr id="line">
+    <div id="icons">
+        
+       <button id="linkedin" onclick="location.href='https:/www.linkedin.com/in/madhansharonv/'"><i class="fa-brands fa-linkedin"></i></button>
+       <button id="insta" onclick="location.href='https:/www.instagram.com/upstanding_psycho'"><i class="fa-brands fa-instagram"></i></button>
+       <button id="twit"><i class="fa-brands fa-twitter"></i></button>
+        
+    </div>
+        <div >
+            <img id="image" src="https://github.com/MADHANSHARON/WEBPROJECTS/blob/main/madhan.jpg?raw=true">
+            <img id="imagecir"  src="https://github.com/MADHANSHARON/WEBPROJECTS/blob/main/madhan1.png?raw=true">
+        </div>
+    </div>
+    
+    
+   <!--About-->
+   <div id="container3">
+    <div id="imgtext">
+        <div >
+            <img id="image1" src="https://github.com/MADHANSHARON/WEBPROJECTS/blob/main/madhan.jpg?raw=true" >
+        </div>
+    </div>
+    <h3 id="abouttext">About</h3>
+   
+    <div id="para1">
+     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores aliquam, rem velit at sapiente sint labore! Consequatur perferendis debitis voluptatum consectetur sed assumenda libero rerum quam facere? Velit perspiciatis ipsa aperiam modi nemo blanditiis beatae excepturi accusamus nisi reiciendis. Ratione blanditiis sed ab et. Commodi obcaecati laudantium porro quae itaque.</p>
+    </div>
+    <div id="smallabout">
+        <a href="https://www.linkedin.com/in/madhansharonv/details/skills/">SKILL</a>
+        <a href="https://www.linkedin.com/in/madhansharonv/details/certifications/">CERTIFICATE</a>
+        <a href="">PROJECTS</a>
+    </div>
+    <div id="square">
+      <div id="skl">
+        <i class="fa-solid fa-head-side-virus"></i>
+        <h4>Skills</h4>
+        <p>I'm a skilled software developer specializing in front-end development and proficient in Python, Java, and C. With expertise in building sleek interfaces and crafting efficient solutions, I'm dedicated to creating software that delights users and delivers results.</p>
+        <a href="https://www.linkedin.com/in/madhansharonv/details/skills/">More</a>
+      </div>
+      <div  id="cir">
+        <i class="fa-solid fa-certificate"></i>
+        <h4 >Cirtificate</h4>
+        <p>I'm a certified developer proficient in HTML, CSS, JavaScript, Python, C, and Java. With expertise in these languages, I'm equipped to tackle diverse programming challenges and contribute effectively to projects. </p>
+        <a href="https://www.linkedin.com/in/madhansharonv/details/certifications/">More</a>
+      </div>
+      <div id="edu">
+        <i class="fa-solid fa-diagram-project"></i>
+        <h4 >Projects</h4>
+        <p>I'm excited to present my debut project: this portfolio website! Created using HTML, CSS, and JavaScript, it's a testament to my journey as a budding developer. While it's my first venture, it embodies my passion for learning and my aspirations for future projects. </p>
+        <a href="#">More</a>
+      </div>
+    </div>
+   </div>
+   <div id="container4">
+    <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+       <div class="contact-left-title">
+        <h5>Get in touch</h5>
+        <hr>
+       </div>
+       <input type="hidden" name="access_key" value="1e5ae59c-32f9-4c53-a5fa-cc89857532b5">
+       <input type="text" name="name" placeholder="your name" class="contact-inputs" required>
+       <input type="email" name="email" placeholder="your email" class="contact-inputs" required>
+       <textarea name="message" placeholder="your message" class="contact-inputs" required></textarea>
+       <button type="submit">Submit</button>  
+    </form>
+    <div class="contact-right">
+        <img src="https://github.com/MADHANSHARON/WEBPROJECTS/blob/main/contact1.png?raw=true" >
+    </div> 
+   </div>
+
+   <script>
+    var sidemenu=document.getElementById("side");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+   </script>
+
+</body>
+</html>
