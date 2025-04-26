@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calendar{
+    width: 400px;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(78, 67, 67);
+
+}
+.header{
+    background-color: rgb(165, 165, 248);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+button{
+    padding: 10px;
+    
+    
+    border: none;
+   
+    font-size: 20px;
+    cursor: pointer;
+}
+select{
+    padding: 10px;
+    border: none;
+   
+    cursor: pointer;
+}
+.daysofweek{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    background-color: rgb(165, 165, 248);
+    color: white;
+}
